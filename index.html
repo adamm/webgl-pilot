@@ -8,6 +8,14 @@
         background: black;
         margin: 0px;
         overflow: hidden;
+        color: white;
+      }
+      div#container {
+        z-index: -1;
+        position: absolute;
+      }
+      h1 {
+        margin: 0;
       }
     </style>
     <script src="lib/jquery-1.6.2.js"></script>
@@ -15,6 +23,7 @@
     <script src="globe.js"></script>
   </head>
   <body>
-
+    <div id='container'></div>
+    <h1>WebGL Pilot Demo</h1>
   </body>
 </html>
